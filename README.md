@@ -1,4 +1,5 @@
-# Ractive-adaptors-betterarray 
+# Ractive-adaptors-betterarray
+[![Build Status](https://travis-ci.org/staygrimm/ractive-adaptors-betterarray.svg?branch=master)](https://travis-ci.org/staygrimm/ractive-adaptors-betterarray)
 
 [Ractive](http://ractivejs.org/) adaptor plugin for [array](https://github.com/MatthewMueller/array).
 
