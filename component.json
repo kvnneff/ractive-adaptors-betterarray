@@ -1,8 +1,8 @@
 {
-    "name": "ractive-adaptors-arrayjs",
+    "name": "ractive-adaptors-betterarray",
     "description": "ractive adaptor for a better array",
     "version": "0.0.1" ,
-    "repository": "staygrimm/ractive-adaptors-arrayjs",
+    "repository": "staygrimm/ractive-adaptors-betterarray",
     "dependencies": {
         "MatthewMueller/array": "^0.4.3"
     },
