@@ -3,6 +3,9 @@
     "description": "ractive adaptor for a better array",
     "version": "0.0.1" ,
     "repository": "staygrimm/ractive-adaptors-arrayjs",
+    "dependencies": {
+        "MatthewMueller/array": "^0.4.3"
+    },
     "keywords": [
         "ractive",
         "collection",

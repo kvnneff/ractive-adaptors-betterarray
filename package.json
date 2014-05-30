@@ -1,5 +1,5 @@
 {
-  "name": "ractive-adaptors-arrayjs",
+  "name": "ractive-adaptors-betterarray",
   "version": "0.0.1",
   "description": "ractive adaptor for a better array",
   "main": "index.js",
@@ -9,10 +9,12 @@
   "scripts": {
     "test": "make test"
   },
+  "dependencies": {
+    "array": "^0.4.3"
+  },
   "devDependencies": {
     "debug": "^0.8.1",
     "mocha": "^1.19.0",
-    "array": "*",
     "ractive": "^0.4.0",
     "should": "^3.3.2"
   },
