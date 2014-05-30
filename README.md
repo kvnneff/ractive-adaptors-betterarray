@@ -44,4 +44,4 @@ view.toHTML(); // <span>Apple - red</span>
 
 ## License
 
-GPL v2
+MIT
