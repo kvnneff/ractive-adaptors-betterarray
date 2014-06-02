@@ -63,16 +63,7 @@ ArrayWrapper = function ArrayWrapper(ractive, betterArray, keypath, prefixer) {
 };
 
 ArrayWrapper.prototype.get = function get() {
-    var tempArray = [],
-        prop;
-
-    for (prop in this.value) {
-        if  (this.value.hasOwnProperty(prop)) {
-            tempArray.push(prop);
-        }
-    }
-    
-    return tempArray;
+    return this.value.toArray();
 };
 
 ArrayWrapper.prototype.reset = function reset(betterArray) {
