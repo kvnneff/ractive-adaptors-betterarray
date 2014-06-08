@@ -19,7 +19,8 @@ npm:
 var betterArray = require('ractive-adaptors-betterarray'),
     array = require('array'),
     Ractive = require('ractive'),
-    collection;
+    collection,
+    view;
     
 collection = array([
     {name: 'Apple', color: 'red'},
@@ -35,7 +36,7 @@ view = new Ractive({
 
 view.set('model', view.get('collection').find({color: 'green'}));
 
-view.toHTML(); // <span>Apple - red</span>
+view.toHTML(); // <span>Pear - green</span>
 ```
 
 
