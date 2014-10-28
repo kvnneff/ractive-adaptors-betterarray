@@ -1,3 +1,6 @@
+**I no longer use Ractive and this repo is not maintained**
+
+
 # Ractive-adaptors-betterarray
 [![Build Status](https://travis-ci.org/staygrimm/ractive-adaptors-betterarray.svg?branch=master)](https://travis-ci.org/staygrimm/ractive-adaptors-betterarray)
 
